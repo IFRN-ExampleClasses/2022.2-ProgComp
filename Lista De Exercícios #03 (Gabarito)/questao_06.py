@@ -13,7 +13,7 @@ print(valor_atual, end = ' ; ')
 
 # Exibindo os elementos da P.A.
 while contador <= qt_elementos_pa:
-    valor_atual = valor_atual + razao_pa
+    valor_atual += razao_pa
     print(valor_atual, end = ' ; ')
     contador += 1
 
