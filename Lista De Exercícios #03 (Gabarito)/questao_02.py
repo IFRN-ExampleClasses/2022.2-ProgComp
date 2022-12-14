@@ -4,6 +4,7 @@ while True:
 
 contador_divisores = 0
 contador           = 1
+print(f'Os divisores de {numero}: ', end = '')
 while contador <= numero:
     if numero % contador == 0:
         contador_divisores += 1
