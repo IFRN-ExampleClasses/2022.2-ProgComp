@@ -5,4 +5,4 @@ str_populacao = '3365351;14985284;9240580;7153262;4059905;9674793;3289290;356090
 # Preencher as listas a partir das respectivas strings
 # lst_uf        <- str_uf
 # lst_siglas    <- str_siglas
-# lst_populacao <- str_populacao
+# lst_populacao <- str_populacao (lembrar de converter para int)
