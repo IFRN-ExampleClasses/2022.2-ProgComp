@@ -6,3 +6,13 @@ str_populacao = '3365351;14985284;9240580;7153262;4059905;9674793;3289290;356090
 # lst_uf        <- str_uf
 # lst_siglas    <- str_siglas
 # lst_populacao <- str_populacao (lembrar de converter para int)
+
+lst_uf        = str_uf.split(';')
+lst_siglas    = str_siglas.split(';')
+lst_populacao = str_populacao.split(';')
+
+lst_populacao = [int(pop) for pop in lst_populacao]
+
+print(lst_uf)
+print(lst_siglas)
+print(lst_populacao)
